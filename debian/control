@@ -7,7 +7,7 @@ Standards-Version: 3.9.8
 Homepage: https://github.com/ds9-common/default-settings-e2fsprogs
 
 Package: default-settings-e2fsprogs
-Architecture: any
+Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, e2fsprogs
 Replaces: e2fsprogs
 Description: package to disable metadata_csum in mke2fs.conf
